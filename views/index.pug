@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  header
+    h1= title
+    p Welcome to #{title}
+  div.main-body
+    each item in messages
+      ul
+        li(class="title")= item.added
+        li(class="descrip")= item.user + ": " + item.text
+  div 
+    button 
+      a(href="/new") Add new message

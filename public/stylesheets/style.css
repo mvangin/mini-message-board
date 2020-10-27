@@ -1,0 +1,83 @@
+body {
+  padding: 20px;
+  background: rgb(49, 49, 49);
+  color: black;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-cont {
+  background: rgb(221, 221, 221);
+}
+
+.form-header{
+  background: rgb(226, 210, 117);
+  border-bottom:5px solid black;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+header {
+  background: rgb(226, 210, 117);
+  text-align: center;
+  padding: 0px 40px 20px 40px;
+  height: 80px;
+  width: 500px;
+}
+
+form {
+  padding: 20px;
+  text-align: center;
+  background: rgb(236, 236, 236)
+  
+}
+
+
+.main-body{
+  background: white;
+  padding: 0px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  height: 300px;
+  width: 500px;
+}
+
+.title {
+  background: rgb(218, 223, 250);
+  border: 1px solidrgb(178, 189, 255);
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.descrip {
+  padding: 10px 0px 0px 0px;
+  font-weight: bold;
+  color: black;
+
+}
+
+ul {
+list-style: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+button {
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

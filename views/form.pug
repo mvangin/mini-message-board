@@ -1,0 +1,17 @@
+extend layout
+
+block content
+    
+    div(class="form-cont")
+        header(class="form-header")
+            h1 Form
+
+        form(method="POST" action="/new")
+            div
+                p(class="form-title") Username
+                input(name="messageUser")
+                p(class="form-title") Message text
+                input(name="messageText")
+                br
+            button(type=submit) Submit
+
