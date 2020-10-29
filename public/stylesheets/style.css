@@ -19,6 +19,10 @@ body {
   padding-top: 10px;
 }
 
+form input {
+  margin: 10px;
+}
+
 header {
   background: rgb(226, 210, 117);
   text-align: center;

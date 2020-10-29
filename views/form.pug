@@ -8,9 +8,12 @@ block content
 
         form(method="POST" action="/new")
             div
-                p(class="form-title") Username
+                label(for="messageUser" class="form-title") Username
+                <br>
                 input(name="messageUser")
-                p(class="form-title") Message text
+                <br>
+                label(for="messageText" class="form-title") Message text
+                <br>
                 input(name="messageText")
                 br
             button(type=submit) Submit
